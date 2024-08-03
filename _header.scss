@@ -1,0 +1,59 @@
+header .container{
+    display: flex;
+    // justify-content: space-between;
+}
+
+header h1{
+    background: linear-gradient(56deg, rgba(2,0,36,1) 1%, rgba(190,0,61,1) 19%);
+
+    -webkit-background-clip: text ;
+    background-clip: text;
+    color: transparent;
+    margin: 1rem;
+}
+
+.menu{
+    margin: 1.5rem 3rem 0 0;
+
+}
+.menu ul{
+    display: flex;
+    justify-content: right;
+}
+.menu li{
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+}
+
+
+.btn{
+    display: none;
+    width: 45+45px;
+    height: 35px;
+    border: 2px solid;
+    color: black;
+    background: none;
+    float: right;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+.btn span{
+    height: 2px;
+    width: 70px;
+    background-color: black;
+    margin: 6px auto;
+    transition: .3s;
+    display: block;
+}
+
+.btn.active span:nth-child(1){
+    transform: translateY(8px) rotate(-14deg);
+}
+.btn.active span:nth-child(2){
+    opacity: 0;
+}
+.btn.active span:nth-child(3){
+    transform: translateY(-8px) rotate(14deg);
+}

@@ -1,0 +1,24 @@
+footer{
+    text-align: left;
+}
+footer .box-1{
+    display: flex;
+    padding: 4rem;
+    flex-flow: wrap;
+}
+
+footer .box-1-1 h2{
+    margin: 0.8rem 0;
+}
+footer .box-1-1 p{
+    margin-bottom: 0.3rem;
+}
+
+footer .box-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+footer .box-2 p{
+    padding: 1.5rem 6rem;
+}

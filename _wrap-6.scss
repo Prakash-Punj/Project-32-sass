@@ -1,0 +1,34 @@
+.wrap-6{
+    padding: 5rem 4rem 10rem;
+    background-color: aqua;
+    text-align: center;
+    position: relative;
+}
+
+.img-slide{
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide-6{
+    display: flex;
+}
+.slide-6-1{
+    width: 100%;
+}
+.pager-6{
+    display: flex;
+    position: absolute;
+    top: 78%;
+    left: 46%;
+}
+.pager-btn-6{
+    width: 8px;
+    height: 8px;
+    border: 2px solid;
+    color: #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: #fff;
+    cursor: pointer;
+}

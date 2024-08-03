@@ -1,0 +1,41 @@
+.wrap-1{
+   
+   background-color: #f2f2f2;
+}
+
+.main-1{
+    display: flex;
+    margin: 0 1rem;
+    
+}
+.wrap-1 .left{
+    margin: 0 1rem 0 0;
+}
+.wrap-1 h2{
+    font-size: 2rem;
+    color: rgb(0, 49, 71);
+    padding-right: 5rem;
+    line-height: 2.5rem;
+}
+.wrap-1 p{
+    color: rgb(21, 91, 138);
+    padding: 1rem 1rem 2rem 0;
+    line-height: 1.2rem;
+    
+}
+.btn-1 button{
+    color: #fff;
+    background-color: rgb(62, 120, 158);
+    padding: 1rem 2rem;
+    border-radius: 2px;
+}
+
+.wrap-1 .right{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.wrap-1 .right img{
+    width: 100%;
+}
