@@ -1,0 +1,27 @@
+.wrap-10{
+    background-color: aquamarine;
+    padding: 4rem 3rem;
+    text-align: center;
+}
+.wrap-10 p{
+    margin: 2rem 0;
+}
+.box-10{
+    display: flex;
+    place-content: center;
+}
+.box-10 input{
+    padding: 1rem;
+    width: 45%;
+    border: none;
+    box-shadow: 0 0 10px rgb(219, 219, 219);
+    border-radius: 5px 0 0 5px;
+}
+.box-10 button{
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: aqua;
+    color: #fff;
+    box-shadow: 0 0 10px rgb(219, 219, 219);
+    border-radius: 0 5px 5px 0;
+}

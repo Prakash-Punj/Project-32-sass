@@ -1,0 +1,53 @@
+.wrap-6{
+    padding: 5rem 1rem 3rem;
+    background-color: aqua;
+    text-align: center;
+    
+}
+
+.img-slide{
+    margin: 0 auto;
+    width: 40%;
+    height: 17rem;
+    padding-top: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+.slide-6{
+    display: flex;
+    height: 100%;
+}
+.slide-6-1{
+    min-width: 100%;
+    position: absolute;
+    transition: 2.5s ease-out;
+}
+.slide-6-1 img{
+    width: 80px;
+    border-radius: 50%;
+}
+.slide-6-1 p{
+    margin: 1rem 0;
+}
+.pager-6{
+    display: flex;
+    position: absolute;
+    /* top: 78%; */
+    bottom: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.pager-btn-6{
+    width: 8px;
+    height: 8px;
+    border: 2px solid;
+    color: #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.pager-btn-6.active{
+    background-color: #000000;
+    color: #222222;
+}

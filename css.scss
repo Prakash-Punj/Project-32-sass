@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+button{
+    border: none;
+}
+html{
+    font-size: 15px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.col-1{
+    flex: 1 1 auto;
+    flex-basis: (1/12 * 100%) ;
+    max-width: (1/12 * 100%) ;
+}
+.col-3{
+    flex: 1 1 auto;
+    flex-basis: (3/12 * 100%) ;
+    max-width: (3/12 * 100%) ;
+}
+.col-4{
+    flex: 1 1 auto;
+    flex-basis: (4/12 * 100%) ;
+    max-width: (4/12 * 100%) ;
+}
+.col-5{
+    flex: 1 0 auto;
+    flex-basis: (5/12 * 100%) ;
+    max-width: (5/12 * 100%) ;
+}
+.col-6{
+    flex: 1 0 auto;
+    flex-basis: (6/12 * 100%) ;
+    max-width: (6/12 * 100%) ;
+}
+.col-8{
+    flex: 1 1 auto;
+    flex-basis: (8/12 * 100%);
+    max-width: (8/12 * 100%);
+}
+
+
+
+
+
+@import "header";
+@import "wrap-1";
+@import "wrap-2";
+@import "wrap-3";
+@import "wrap-4";
+@import "wrap-5";
+@import "wrap-6";
+@import "wrap-7";
+@import "wrap-8";
+@import "wrap-9";
+@import "wrap-10";
+@import "footer";
+@import "media";
+@import "scrollAnimation";
